@@ -1,11 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="description" content="Portfolio profesional de desarrollo de software y educación. Especialista en desarrollo web.">
+    <meta name="keywords" content="desarrollo software, educación tecnológica, programación y desarrollo web">
+    <meta name="author" content="Angel Larios">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Portfolio Profesional - Angel Larios">
+    <meta property="og:description" content="Portfolio profesional de desarrollo web y educación tecnológica">
+    <!-- <meta property="og:url" content="https://midominio.com"> -->
+    <title>Portfolio Profesional - Angel Larios | Desarrollador web</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- <link rel="canonical" href="https://midominio.com" /> -->
+
 </head>
 <body>
-    
+    <header class="">
+        <div class="container py-4">
+            <div class="text-center mb-4">
+                <img src="https://unavatar.io/lars505" alt="Foto de perfil profesional" class="profile-img mb-1">
+                <h1 class="display-5">Angele Larios</h1>
+                <nav class="nav justify-content-center mb-4">
+                    <a class="nav-link active" href="#home" aria-current="page">Inicio</a>
+                    <a class="nav-link" href="#skils">Skils</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="#contact">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <section class="content-section" id="home">
+                    <h2 class="h1 mb-2">¡Hola! 👋</h2>
+                    <p class="lead mb-3">Soy un desarrollador web apasionado por la programación y la creación de soluciones tecnológicas eficientes.</p>
+                    
+                    <article class="mb-4">
+                        <h2 class="h2 mb-2">Sobre mi</h2>
+                        
+                        <p class="lead ">Actualmente, trabajo como freelancer en desarrollo web, especializándome en la optimización de procesos, resolución de problemas y el aprendizaje continuo de nuevas tecnologías.
+
+                        También he impartido cursos de introducción a la programación y desarrollo web con Python y JavaScript, compartiendo conocimientos y ayudando a otros a iniciarse en el mundo del desarrollo.</p>
+                        
+
+                        <h2 class="h2 mb-2">Formaci&oacute;n</h2>
+
+                        <p class="lead">Me gradué de La Universidad Nacional Autonoma de Nicaragua con un titulo de Ingenieria de Sistemas.</p>
+                
+                    </article>
+                </section>
+
+                <section class="content-section" id="skils">
+                    <h2 class="h2 mb-4">Skils</h2>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <h3 class="skill-name">Frontend</h3>
+                            <p class="text-muted">HTML, CSS, JavaScript</p>
+                            <div class="skill-level">
+                                <div class="skill-level-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="bi bi-hdd-rack"></i>
+                            </div>
+                            <h3 class="skill-name">Backend</h3>
+                            <p class="text-muted">Python</p>
+                            <div class="skill-level">
+                                <div class="skill-level-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="bi bi-database"></i>
+                            </div>
+                            <h3 class="skill-name">Bases de Datos</h3>
+                            <p class="text-muted">MySQL, PostgreSQL</p>
+                            <div class="skill-level">
+                                <div class="skill-level-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+        
+                    </div>
+                </section>
+
+                <section class="content-section mt-5 " id="portfolio">
+                    <h2 class="h2 mb-4">Proyectos Destacados</h2>
+                    <div class="portfolio-grid">
+                        <article class="portfolio-card">
+                            <img src="https://via.placeholder.com/400x200" alt="E-commerce Project" class="portfolio-image">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">E-commerce Platform</h3>
+                                <p class="portfolio-description">Plataforma de comercio electrónico completa con carrito de compras, pagos y panel de administración.</p>
+                                <div class="mb-3">
+                                    <span class="tag">Django RestFramework</span>
+                                    <span class="tag">Vue Js</span>
+                                    <span class="tag">Postgresql</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn btn-outline-primary">
+                                        <i class="bi bi-github"></i> Código
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="portfolio-card">
+                            <img src="https://via.placeholder.com/400x200" alt="Task Manager App" class="portfolio-image">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Task Manager</h3>
+                                <p class="portfolio-description">Aplicación de gestión de tareas con características de colaboración en tiempo real.</p>
+                                <div class="mb-3">
+                                    <span class="tag">Vue.js</span>
+                                    <span class="tag">Firebase</span>
+                                    <span class="tag">Tailwind</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn btn-outline-primary">
+                                        <i class="bi bi-github"></i> Código
+                                    </a>
+                                   
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="portfolio-card">
+                            <img src="https://via.placeholder.com/400x200" alt="nombre de la app" class="portfolio-image">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">nombre App</h3>
+                                <p class="portfolio-description">Aplicación móvil para seguimiento de ejercicios y rutinas de entrenamiento.</p>
+                                <div class="mb-3">
+                                    <span class="tag">React Native</span>
+                                    <span class="tag">Redux</span>
+                                    <span class="tag">Node.js</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn btn-outline-primary">
+                                        <i class="bi bi-github"></i> Código
+                                    </a>
+                                   
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="text-muted mb-0">&copy; 2024 Angel Larios. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Angel Larios",
+        "url": "https://tudominio.com",
+        "image": "https://unavatar.io/lars505",
+        "sameAs": [
+            "https://github.com/lars505",
+            "https://linkedin.com/in/alariosv",
+            
+        ],
+        "jobTitle": "Desarrollador de Software y Educador",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Company"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": " Universidad Nacional Autonoma de Nicaragua"
+        }
+    }
+    </script>
 </body>
 </html>
